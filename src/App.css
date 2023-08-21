@@ -1,0 +1,100 @@
+
+/* @import url('https://fonts.googleapis.com/css?family=Numans'); */
+
+html,
+body {
+  background-image: url(./assets/bg_image.jpg);
+  /* background-color: #bf9c0d; */
+  background-size: cover;
+  background-repeat: no-repeat; 
+  height: 100%;
+  font-family: 'Numans', sans-serif;
+}
+
+
+/* cursive; */
+
+.container {
+  height: 100%;
+  align-content: center;
+}
+
+.dashboard {
+  background-color: white;
+  /* height: 100%; */
+}
+
+.urlDetail a{
+  color: black !important;
+  text-decoration: none;
+}
+
+.heading {
+  padding-top: 2rem;
+  /* color: #1436cc !important; */
+  /* -webkit-text-stroke: 1px white; */
+}
+
+.register .card {
+  margin-top: 50px; 
+  margin-bottom: auto;
+  width: 400px;
+  background-color: white !important;
+  justify-content:center ;
+  align-content: center;
+}
+
+.signin {
+  height: 380px;
+}
+
+.signup {
+  height: 460px;
+}
+
+.register .card-header h3 {
+  color: #1436cc;
+  font-weight: bold;
+}
+
+.register .card-header,.card-footer{
+  background-color: whitesmoke;
+}
+
+.labels {
+  color: #1436cc;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.btn {
+  color: white;
+  background-color: #1436cc !important;
+  font-weight: bold;
+  /* width: 100px; */
+}
+
+.btn:hover {
+  color: black;
+  background-color: #a0b0bd !important;
+}
+
+.links {
+  color: black;
+  font-weight: bold;
+}
+
+.links a {
+  margin-left: 4px;
+  color: #1436cc;
+  text-decoration: none
+}
+
+.links a:hover{
+  margin-left: 4px;
+  color: #cf1d5b;
+}
+
+.register input {
+  background-color: whitesmoke;
+}
